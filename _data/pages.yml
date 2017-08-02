@@ -1,0 +1,24 @@
+about:
+  title: Merriam Station Community Garden
+  button: About Us
+  url: about.html
+  image: images/pic01.jpg
+  description: MSCG provides affordable space for residents to connect through sustainable, organic gardening.  We strive to engage neighbors and charitable groups to build community and promote healthy living.
+members:
+  title: Members
+  button: Members
+  url: members.html
+  image: images/pic02.jpg
+  description: Stay updated with garden news, member info, and volunteer opportunities!
+faq:
+  title: FAQ
+  button: FAQ
+  url: faq.html
+  image: images/pic03.jpg
+  description: Find FAQ, garden policies, and ongoing projects.
+joinus:
+  title: Join Us!
+  button: Join Us
+  url: joinus.html
+  image: images/pic05.jpg
+  description: We would love to see you.

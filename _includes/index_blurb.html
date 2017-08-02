@@ -1,0 +1,18 @@
+<section>
+  {% assign blurb_content = include.blurb_content %}
+  <a href="{{ blurb_content.url }}" class="image">
+    <img src="{{ blurb_content.image }}" alt="" data-position="center center" />
+  </a>
+  <div class="content">
+    <div class="inner">
+      <h2>{{ blurb_content.title }}</h2>
+      <p>{{ blurb_content.description }}</p>
+      <ul class="actions">
+        <li>
+          <a href="{{ blurb_content.url }}" class="button">{{ blurb_content.button }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

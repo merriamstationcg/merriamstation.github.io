@@ -1,0 +1,14 @@
+<!-- nav -->
+<nav>
+  <ul>
+    {% for page_hash in site.data.pages %}
+      <li><a href="{{ page_hash[1].url }}">{{ page_hash[1].button }}</a></li>
+    {% endfor %}
+    <li>
+    {% if page.path == 'index.html' %}
+      <li><a href="#connect">Contact</a></li>
+    {% else %}
+      <li><a href="index.html#connect">Contact</a></li>
+    {% endif %}
+  </ul>
+</nav>

@@ -1,46 +1,11 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
--->
-<html>
-	<head>
-		<title>MSCG</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+---
+layout: page
+---
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="title">MSCG</a>
-				<nav>
-					<ul>
-
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">Garden</a></li>
-							<li><a href="members.html">Members</a></li>
-							<li><a href="operations.html">Operations</a></li>
-							<li><a href="joinus.html">Join Us</a></li>
-							<li><a href="index.html#connect">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">Members</h1>
-							<center><span class="image small"><img src="images/pic02.jpg" alt="" /></span></center>
-<h2 class="major">Stay updated with garden news, member info, and volunteer opportunities.</h2>
+{% assign thispage = site.data.pages.members %}
+<h1 class="major">{{thispage.button}}</h1>
+<center><span class="image small"><img src="{{thispage.image}}" alt="" /></span></center>
+<h2 class="major">{{thispage.description}}</h2>
 <hr/>
 &nbsp;
 <h2>Log Volunteer Hours</h2>
@@ -55,11 +20,11 @@
 <p/>
 <h2>Maps</h2>
 <div class="box alt">
-<div class="row uniform">
-<div class="4u"><span class="image fit"><img src="images/Map1.jpg" alt=""></span></div>
-<div class="4u"><span class="image fit"><img src="images/Map2.jpg" alt=""></span></div>
-<div class="4u$"><span class="image fit"><img src="images/Map3.jpg" alt=""></span></div>
-</div>
+  <div class="row uniform">
+    <div class="4u"><span class="image fit"><img src="images/Map1.jpg" alt=""></span></div>
+    <div class="4u"><span class="image fit"><img src="images/Map2.jpg" alt=""></span></div>
+    <div class="4u$"><span class="image fit"><img src="images/Map3.jpg" alt=""></span></div>
+  </div>
 </div>
 <p>&nbsp;</p>
 <h2>Compost</h2>
@@ -72,30 +37,3 @@
 
 <a href="https://goo.gl/forms/syYW0DJ0wvGkx3o93" align="center" class="button scrolly">Volunteer today!</a>
 <p>&nbsp;</p>
-
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
